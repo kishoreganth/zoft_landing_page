@@ -6,12 +6,12 @@ const services = [
   {
     title: "Book Appointments Instantly",
     description:
-      "Let Kayzen handle your scheduling! From booking sessions to managing reschedules, this AI assistant makes it seamless to connect with clients.",
+      "Let Zoft handle your scheduling! From booking sessions to managing reschedules, this AI assistant makes it seamless to connect with clients.",
   },
   {
     title: "Instant Support for Shoppers",
     description:
-      "Streamline your eCommerce support with Kayzen! From order tracking to FAQs, this AI assistant ensures customers get instant help, boosting satisfaction and saving your team time.",
+      "Streamline your eCommerce support with Zoft! From order tracking to FAQs, this AI assistant ensures customers get instant help, boosting satisfaction and saving your team time.",
   },
   {
     title: "Simplifying Insurance Support",

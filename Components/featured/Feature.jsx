@@ -25,11 +25,11 @@ const Feature = () => {
       <div className="w-full mt-[2vw] px-[3vw] py-[1vw] flex flex-col tablet:flex-row web:flex-row gap-[2vw]">
         <div className="w-full h-full tablet:h-[55%] px-[2vw]  pt-[4vw] flex flex-col gap-[2vw] rounded-lg shadow-2xl">
           <h1 className="text-2xl font-bold capitalize">
-            Tell Kayzen your use case
+            Tell zoft your use case
           </h1>
           <p className="text-sm font-semibold capitalize tablet:h-[138px] web:h-[70px]">
             Need a hand with sales, customer support, operations, or building
-            something custom? Just tell Kayzen what to do, and we’ll take care
+            something custom? Just tell Zoft what to do, and we’ll take care
             of the rest.
           </p>
           <img
@@ -43,7 +43,7 @@ const Feature = () => {
             Choose voice and language
           </h1>
           <p className="text-sm font-semibold capitalize tablet:h-[138px] web:h-[70px]">
-            Kayzen Ai delivers quick, emotional responses in chats and calls
+            Zoft Ai delivers quick, emotional responses in chats and calls
             while managing multiple actions.
           </p>
           <img

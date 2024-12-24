@@ -24,7 +24,7 @@ const Footer = () => {
      <div className="w-full h-full ">
       <div className="w-full h-[70%] flex flex-col px-[2vw]   ">
       <div className="w-full flex flex-col justify-center gap-[1vw] pl-[8vw] py-[5vw ">
-      <a className="text-2xl font-bold capitalize" href="#">kayzen</a>
+      <a className="text-2xl font-bold capitalize" href="#">zoft</a>
       {/* <h6 className="text-xs w-1/5">41 E 11th St, 11th Floor, New York, NY 10003</h6> */}
       </div>
 

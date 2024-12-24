@@ -32,7 +32,7 @@ const Hero = () => {
           effortless communications, with ai chat and phone agents.
         </h1>
         <h6 className="lg:text-2xl text-lg text-zinc-400 lg:w-2/3 w-[90%]">
-          kayzen helps business build and deploy human-like AI enterprise agents
+          Zoft helps business build and deploy human-like AI enterprise agents
           in 1 minute to automate chat and calls.
         </h6>
         <CTA />

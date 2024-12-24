@@ -11,6 +11,7 @@ import PricingM from "./pricing/PricingM";
 import Footer from "./footer/Footer";
 import useScreenSize from "./ScreenSize";
 import BentoGridM from "./Bento/BentoGridM";
+import PricingCards from "./PricingCards/PricingCards";
 
 const Main = () => {
   const screenWidth = useScreenSize();
@@ -22,7 +23,8 @@ const Main = () => {
       {screenWidth < 768 ? <BentoGridM /> : <BentoGrid />}
       <Text />
       <Feature />
-      {screenWidth < 768 ? <PricingM/> : <Pricing/>}
+      <PricingCards />
+      {screenWidth < 768 ? <PricingM /> : <Pricing />}
       <Footer />
     </div>
   );

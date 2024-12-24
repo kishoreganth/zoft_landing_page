@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div ref={nav} className={`relative z-10 w-full  h-[10vh h-[7vh] ${isResourcesHovered || isContactHovered ? 'backdrop-blur-xl' : ''} shadow-md flex justify-between  items-center px-[6vw px-[4vw] md:px-[2vw] gap-[6vw`}>
-      <div className="md:text-2xl  font-bold">kayzen</div>
+      <div className="md:text-2xl  font-bold">zoft</div>
       <div className="fle gap-4 web:gap-10 capitalize font-medium text-sm md:text-lg cursor-pointer hidden md:flex">
         {/* Resources Link */}
           <h3>features</h3>

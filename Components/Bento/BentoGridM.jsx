@@ -8,29 +8,29 @@ import { Beam } from '../featured/Beam';
 const BentoGridM = () => {
     return (
         <div className="grid grid-cols-1 grid-rows-auto gap-4 px-[2vw] py-[2vw] w-[95%] h-auto bg-[#F6F6F4] mx-3">
-            {/* Box 1 */}
+            {/* Box 1: Seamless Integration */}
             <div className="bg-white h-[50vh] rounded-3xl p-6 shadow-lg flex flex-col justify-between">
                 <div className="w-full h-1/2">
                     <Beam />
                 </div>
                 <div className="w-full h-1/2 flex flex-col justify-end items-start">
                     <IoChatbubbles className="text-4xl mb-4" />
-                    <h2 className="text-2xl font-bold mb-2 text-start capitalize">
+                    <h2 className="text-2xl font-bold mb-2 capitalize">
                         Engineered for seamless integration
                     </h2>
-                    <p className="text-lg font-medium text-left">
+                    <p className="text-lg font-medium">
                         Equip your agents with advanced automation to authenticate callers
                         and resolve issues seamlessly.
                     </p>
                 </div>
             </div>
 
-            {/* Box 2 */}
+            {/* Box 2: Appointment Scheduling */}
             <div className="bg-white h-[50vh] rounded-3xl p-6 shadow-lg flex flex-col justify-between">
                 <img
                     className="w-full h-[50%] object-contain object-center"
                     src="../../images/5.png"
-                    alt=""
+                    alt="Appointment Scheduling"
                 />
                 <div className="w-full flex flex-col justify-end items-start">
                     <FaRegCalendarCheck className="text-4xl mb-4" />
@@ -41,7 +41,7 @@ const BentoGridM = () => {
                 </div>
             </div>
 
-            {/* Box 3 */}
+            {/* Box 3: Call Routing */}
             <div className="bg-white h-[50vh] rounded-3xl p-6 shadow-lg flex flex-col justify-between">
                 <div className="w-full flex flex-col justify-end items-start">
                     <FaPhoneAlt className="text-4xl mb-4" />
@@ -55,12 +55,12 @@ const BentoGridM = () => {
                 </div>
             </div>
 
-            {/* Box 4 */}
+            {/* Box 4: Analytics & Reporting */}
             <div className="bg-white h-[50vh] rounded-3xl p-6 shadow-lg flex flex-col justify-between">
                 <img
                     className="w-full h-[60%] object-contain"
                     src="../../images/6.png"
-                    alt=""
+                    alt="Analytics & Reporting"
                 />
                 <div className="w-full flex flex-col items-end">
                     <CiRoute className="text-4xl mb-4" />
@@ -73,12 +73,12 @@ const BentoGridM = () => {
                 </div>
             </div>
 
-            {/* Box 5 */}
+            {/* Box 5: Custom Knowledge Base */}
             <div className="bg-white h-[50vh] rounded-3xl p-6 shadow-lg flex flex-col justify-between">
                 <img
                     className="w-full h-1/2 object-cover object-left"
                     src="../../images/4.png"
-                    alt=""
+                    alt="Custom Knowledge Base"
                 />
                 <div className="w-full flex flex-col items-center">
                     <FaBookOpen className="text-4xl mb-4" />
@@ -91,12 +91,12 @@ const BentoGridM = () => {
                 </div>
             </div>
 
-            {/* Box 6 */}
+            {/* Box 6: 24/7 Availability */}
             <div className="bg-white h-[50vh] rounded-3xl p-6 shadow-lg flex flex-col justify-between">
                 <div className="w-full flex flex-col items-start">
                     <BiSupport className="text-4xl mb-4" />
-                    <h2 className="text-2xl font-bold mb-2 text-start">24/7 Availability</h2>
-                    <p className="text-lg font-medium text-start">
+                    <h2 className="text-2xl font-bold mb-2">24/7 Availability</h2>
+                    <p className="text-lg font-medium">
                         Instant responses with trustworthy and accurate answers.
                     </p>
                     <button className="px-[2vw] py-[1vh] rounded-xl border-black border-[1px] capitalize font-semibold text-md mt-[1vw]">
@@ -106,7 +106,7 @@ const BentoGridM = () => {
                 <img
                     className="w-1/2 h-[50%] bg-cover"
                     src="../../images/Service 24_7-bro.png"
-                    alt=""
+                    alt="24/7 Availability"
                 />
             </div>
         </div>

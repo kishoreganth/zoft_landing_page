@@ -87,12 +87,12 @@ useEffect(() => {
       {/* Text Reveal Content */}
       {screenWidth < 768 ? (<div ref={mainRef} className="relative z-10 h-[70vh] w-full px-[2vw]">
         <div className="text-center flex justify-center items-center w-full h-full">
-         <h1 ref={textRef} className="md:text-5xl text-sm  font-black leading-tight text-zinc-300 dark:text-white px-2">Kayzen revolutionizes conversations with AI chat and phone agents that truly understand you. Our mission is to elevate every interaction, blending seamless communication with cutting-edge technology. Step into the future of engagement with Kayzen.</h1>
+         <h1 ref={textRef} className="md:text-5xl text-sm  font-black leading-tight text-zinc-300 dark:text-white px-2">zoft revolutionizes conversations with AI chat and phone agents that truly understand you. Our mission is to elevate every interaction, blending seamless communication with cutting-edge technology. Step into the future of engagement with Zoft.</h1>
           
         </div>
       </div>): (  <div ref={mainRef} className="relative z-10 h-screen w-full px-[2vw]">
         <div className="text-center flex justify-center items-center w-full h-full">
-         <h1 ref={textRef} className="md:text-4xl tablet:text-3xl text-lg  font-bold leading-tight text-zinc-300 dark:text-white">Kayzen revolutionizes conversations with AI chat and phone agents that truly understand you. Our mission is to elevate every interaction, blending seamless communication with cutting-edge technology. Step into the future of engagement with Kayzen.</h1>
+         <h1 ref={textRef} className="md:text-4xl tablet:text-3xl text-lg  font-bold leading-tight text-zinc-300 dark:text-white">zoft revolutionizes conversations with AI chat and phone agents that truly understand you. Our mission is to elevate every interaction, blending seamless communication with cutting-edge technology. Step into the future of engagement with Zoft.</h1>
           
         </div>
       </div>)}
