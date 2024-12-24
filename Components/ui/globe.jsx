@@ -73,6 +73,10 @@ export default function Globe({
   };
 
   useEffect(() => {
+    if (typeof window === "undefined") {
+      // Safe to use window here
+      return;
+    }
     window.addEventListener("resize", onResize);
     onResize();
 
