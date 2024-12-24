@@ -89,7 +89,7 @@ const Feature = () => {
                     autoPlay
                     loop
                     muted
-                    src="../../videos/ChatBot2.mp4"
+                    src="../../videos/chatbot2.mp4"
                   ></video>
                 </div>
               </div>
@@ -145,7 +145,7 @@ const Feature = () => {
                     autoPlay
                     loop
                     muted
-                    src="../../videos/ChatBot2.mp4"
+                    src="../../videos/chatbot2.mp4"
                   ></video>
                 </div>
               </div>
